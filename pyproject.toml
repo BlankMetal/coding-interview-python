@@ -1,0 +1,15 @@
+[project]
+name = "coding-interview-python"
+version = "0.1.0"
+description = "API-driven Coding Interview Challenge Framework"
+requires-python = ">=3.12"
+dependencies = [
+    "requests",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["solution", "run_tests_api", "config"]
